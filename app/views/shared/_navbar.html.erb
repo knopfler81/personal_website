@@ -1,13 +1,15 @@
-<div class="navbar-wagon">
-  <!-- Logo -->
-  <%= link_to root_path, class: "logo-share" do %>
-    <i class="fa fa-money" aria-hidden="true"></i>
-  <% end %>
 
-    <%= link_to "Contact", "#"  %>
-    <%= link_to "Test", "#"  %>
+  <div class="navbar-wagon">
+    <div class="navbar-wagon-brand">
+      <div class="social">
+        <li><%= link_to "ND", root_path %></li>
+      </div>
+
+    </div>
+    <div class="navbar-wagon-right">
+      <%= link_to "<i class='fa fa-code'></i>Projects".html_safe, projects_path, class: ("active" if current_page?(projects_path)) %>
+    </div>
+
+
 
   </div>
-
-</div>
-
