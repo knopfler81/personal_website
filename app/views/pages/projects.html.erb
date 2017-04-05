@@ -1,11 +1,87 @@
 <div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-    <h1 class="cards-main-title">Some projects</h1>
+<!-- <h1 class="cards-main-title">Some projects</h1> -->
+  <div class="content">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div id="f1_container">
+          <div id="f1_card" class="shadow">
+            <div class="front face">
+              <%= image_tag("tuto.jpg", class:"img-project" )%>
+            </div>
+            <div class="back face ">
+            <br>
+               <p>I started this one in September 2016. I wanted to bookmark usefull tricks and make sure to find them back when needed. </p>
+
+              <ul>
+                <li><%= link_to "<i class='fa fa-github'></i>".html_safe, 'https://github.com/knopfler81/tutosmemos', target: "_blank" %></li>
+                <li><%= link_to "<i class='fa fa-eye'></i>".html_safe, 'https://duclostutos.herokuapp.com', target: "_blank" %></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div id="f1_container">
+          <div id="f1_card" class="shadow">
+            <div class="front face">
+              <%= image_tag("split-fair.jpg", class:"img-project" )%>
+            </div>
+            <div class="back face ">
+              <br>
+              <p>This mini app idea started from a dicussion I had in a pub in Berlin. A friend gave me the idea as a little challenge.</p>
+              <br>
+
+              <ul>
+                <li><%= link_to "<i class='fa fa-github'></i>".html_safe, 'https://github.com/knopfler81/split-fair2', target: "_blank" %></li>
+                <li><%= link_to "<i class='fa fa-eye'></i>".html_safe, 'https://split-fair.herokuapp.com', target: "_blank" %></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div id="f1_container">
+          <div id="f1_card" class="shadow">
+            <div class="front face">
+              <%= image_tag("easy.jpg", class:"img-project" )%>
+            </div>
+            <div class="back face ">
+              <br>
+              <p>This app was created during the last 10 days of my bootcamp with Le Wagon Lyon. We worked in a team of 4 students.</p>
+              <ul>
+                <li><%= link_to "<i class='fa fa-github'></i>".html_safe, 'https://github.com/viny212/easy_trip', target: "_blank" %></li>
+                <li><%= link_to "<i class='fa fa-eye'></i>".html_safe, 'https://easy-trip.herokuapp.com', target: "_blank" %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div id="f1_container">
+          <div id="f1_card" class="shadow">
+            <div class="front face">
+              <%= image_tag("leschner.jpg", class:"img-project" )%>
+            </div>
+            <div class="back face ">
+              <br>
+              <p>This is more or less a blog, not yet used by the luthier, WIP. </p>
+              <ul>
+                <li><%= link_to "<i class='fa fa-github'></i>".html_safe, 'https://github.com/knopfler81/leschner', target: "_blank" %></li>
+                <li><%= link_to "<i class='fa fa-eye'></i>".html_safe, 'https://leschnerguitars.com', target: "_blank" %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-4">
+</div>
+    <!-- <div class="col-xs-12 col-sm-4">
       <div class="card">
         <h3>Tutos Memos</h3>
         <hr>
@@ -22,8 +98,8 @@
 
       </div>
     </div>
-
-    <div class="col-xs-12 col-sm-4">
+ -->
+<!--     <div class="col-xs-12 col-sm-4">
       <div class="card">
         <h3>Split fair</h3>
         <hr>
@@ -54,6 +130,4 @@
        </ul>
 
       </div>
-    </div>
-  </div>
-</div>
+
