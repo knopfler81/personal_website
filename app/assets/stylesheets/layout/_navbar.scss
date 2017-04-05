@@ -1,7 +1,7 @@
 /* Main class */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: #fff;
+  box-shadow          : 0 1px 5px 0 rgb(67, 210, 49), 0 1px 0 0 rgba(67, 210, 49, 0.26);
+  background: #141414;
   transition: all 0.3s ease;
   display: flex;
   height: 70px;
@@ -29,6 +29,7 @@
   font-size: 25px;
   font-weight: bolder;
   justify-content: flex-start;
+  margin-top: 15px;
 }
 
 /* Navbar right section (with form, links, button) */
