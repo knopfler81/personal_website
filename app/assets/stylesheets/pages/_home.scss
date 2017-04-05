@@ -1,7 +1,11 @@
 .wrapper {
   padding             : 40px;
   color               : #ccc;
-  background-image    : linear-gradient(225deg, rgba(67,210,49,0.7) 30%,  rgba(67,210,49,0.1) 80%),  image_url("keyboard.jpg");
+  background-position : cover;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  height              : 50vh;
+  background-image    : linear-gradient(225deg, rgba(67,210,49,0.7) 30%,  rgba(67,210,49,0.3) 80%),  image_url("keyboard.jpg");
   h1, h2, p {
     color             : #fff;
   }
