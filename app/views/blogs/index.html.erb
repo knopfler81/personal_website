@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="col-xs-12 col-sm-10 col-offset-sm-1">
+  <h2>My blog</h2>
+
+  <% @blogs.each do |blog| %>
+    <h3><%= link_to blog.title, blog_path(blog) %></h3>
+    <h5><%= time_ago_in_words(blog.created_at) %></h5>
+    <%= simple_format(blog.description) %>
+    <hr>
+  <% end %>
+
+
+  </div>
+</div>

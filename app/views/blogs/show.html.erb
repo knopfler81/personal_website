@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-xs-12 col-sm-10 col-offset-sm-1">
+    <h2><%= @blog.title %></h2>
+    <h5><%= time_ago_in_words(@blog.created_at) %></h5>
+    <%= simple_format(@blog.description) %>
+    <%= link_to "back", blogs_path  %>
+    <%= link_to "edit", edit_blog_path(@blog)  %>
+    <%= link_to "destroy", blog_path, method: :delete, data: {confirm: "Are you sure?"}  %>
+
+  </div>
+</div>
