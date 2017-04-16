@@ -1,4 +1,4 @@
 class Blog < ApplicationRecord
 
-  scope :by_date, -> { order(created_at: :desc) }
+  scope :by_date, -> { order(created_at: :asc) }
 end
