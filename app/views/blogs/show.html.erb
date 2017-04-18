@@ -1,7 +1,7 @@
 <div class="container blog">
   <div class="col-xs-12 col-sm-10 col-offset-sm-1">
     <h3 class="title"><%= @blog.title %></h2>
-    <h5 class="time_ago"><%= time_ago_in_words(@blog.created_at) %></h5>
+    <h5 class="time_ago"><%= time_ago_in_words(@blog.created_at) %> ago...</h5>
     <%= simple_format(@blog.description) %>
   </div>
 </div>

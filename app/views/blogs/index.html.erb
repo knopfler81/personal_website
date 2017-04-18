@@ -4,7 +4,7 @@
     <% @blogs.each do |blog| %>
       <%= link_to blog_path(blog) do %>
         <h3 class="title"><%= blog.title %></h3>
-        <h5 class="time_ago"><%= time_ago_in_words(blog.created_at) %></h5>
+        <h5 class="time_ago"><%= time_ago_in_words(blog.created_at) %> ago...</h5>
         <%= simple_format(truncate(blog.description, length: 200)) %>
       <% end %>
       <hr>
