@@ -5,13 +5,13 @@
    text-align: right;
  }
 
- .social li {
+ .social {
    padding: 0 10px 0 10px;
    margin: 0 0 0 0;
    display: inline-table;
  }
 
-.social li a {
+.social  a {
   padding: 8px 0 0 0;
   margin: 0 0 0 0;
   display: block;
@@ -34,7 +34,7 @@
   -webkit-transition: .7s ease-in-out;
 }
 
-.social li:hover a {
+.social:hover a {
   background: #ffffff;
   border: 5px solid #43D231;
   font-size: 50px;
