@@ -255,7 +255,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass
-  devise
+  devise (~> 4.2)
   figaro
   font-awesome-sass
   inherited_resources!
